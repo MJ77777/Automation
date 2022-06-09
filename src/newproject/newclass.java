@@ -8,6 +8,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class newclass {
     public static void main(String[] args) throws InterruptedException {
         int hello1 =(int)(1+Math.random()*100);
@@ -58,6 +59,8 @@ String pass="Duotech2020";
             else{ throw new RuntimeException();}
             driver.findElement(By.id("nameFirstAndLast")).click();
             driver.findElement(By.id("rafael")).click();
+            //
+
 driver.quit();
 
 
