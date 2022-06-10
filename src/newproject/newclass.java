@@ -59,7 +59,7 @@ String pass="Duotech2020";
             else{ throw new RuntimeException();}
             driver.findElement(By.id("nameFirstAndLast")).click();
             driver.findElement(By.id("rafael")).click();
-            //
+//            //
 
 driver.quit();
 
